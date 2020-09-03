@@ -1,6 +1,7 @@
-package com.qmyan.demo
+package com.qmyan.demo.kotlinpractice
 
-class Student(var sno : String, var grade : Double) : Person(), Study {
+class Student(var sno : String, var grade : Double) : Person(),
+    Study {
     init {
         println("new student")
     }

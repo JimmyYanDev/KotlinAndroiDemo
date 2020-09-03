@@ -1,4 +1,4 @@
-package com.qmyan.demo
+package com.qmyan.demo.kotlinpractice
 
 open class Person {
     var name = ""

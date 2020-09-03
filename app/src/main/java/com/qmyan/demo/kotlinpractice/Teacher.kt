@@ -1,4 +1,6 @@
-package com.qmyan.demo
+package com.qmyan.demo.kotlinpractice
+
+import com.qmyan.demo.kotlinpractice.Person
 
 class Teacher : Person {
     var tno : String

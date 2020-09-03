@@ -1,4 +1,4 @@
-package com.qmyan.demo
+package com.qmyan.demo.kotlinpractice
 
 import kotlin.math.max
 
@@ -76,9 +76,13 @@ fun main() {
         .let { println(it) }
     // null detect
     var str : String? = null
-    println("Input String length is ${getTexLength(str)}")
+    println("Input String length is ${getTexLength(
+        str
+    )}")
     str = "1234567"
-    println("Input String length is ${getTexLength2(str)}")
+    println("Input String length is ${getTexLength2(
+        str
+    )}")
     if (null != str) {
         getTexLength3(str)
     }
