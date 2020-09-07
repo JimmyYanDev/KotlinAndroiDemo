@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".databasepractice.DataBaseDemoActivity"></activity>
+        <activity android:name=".contentproviderpractice.ContentProviderDemoActivity"></activity>
+
+        <provider
+            android:name=".contentproviderpractice.MyContentProvider"
+            android:authorities="com.qmyan.demo.provider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".databasepractice.DataBaseDemoActivity" />
         <activity android:name=".uipractice.SMSDemoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

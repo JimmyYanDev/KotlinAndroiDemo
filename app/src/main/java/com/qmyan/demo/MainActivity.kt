@@ -6,6 +6,7 @@ import android.telephony.TelephonyManager
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.qmyan.demo.contentproviderpractice.ContentProviderDemoActivity
 import com.qmyan.demo.databasepractice.DataBaseDemoActivity
 import com.qmyan.demo.uipractice.SMSDemoActivity
 
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         // SMSDemoActivity.actionStart(this)
-        DataBaseDemoActivity.actionStart(this)
+        // DataBaseDemoActivity.actionStart(this)
+        ContentProviderDemoActivity.actionStart(this)
     }
 }
